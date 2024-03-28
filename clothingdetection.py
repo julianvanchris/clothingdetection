@@ -68,7 +68,7 @@ def draw_box(img, result, class_list):
 
 # Streamlit app
 def main():
-    st.title('Leaf Disease Detection')
+    st.title('Clothing Detection')
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
     if uploaded_file is not None:
         image = np.array(bytearray(uploaded_file.read()), dtype=np.uint8)
