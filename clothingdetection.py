@@ -6,7 +6,7 @@ import base64
 import numpy as np
 
 # Load YOLO model
-model = YOLO("model/clothing.pt")
+model = YOLO("model/category.pt")
 class_list = model.names
 
 # Function to perform object detection
